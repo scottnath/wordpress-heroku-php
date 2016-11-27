@@ -1,23 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5a09a3b2078521129a96c83b498e34f3",
+    "hash": "0311517e8d8f066b3bde9effd593703f",
+    "content-hash": "2aa13d6245d12ed391655eeb821c8ca9",
     "packages": [
         {
             "name": "fancyguy/webroot-installer",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fancyguy/webroot-installer.git",
-                "reference": "4888a3dad9ab3b3da505a149230be0ec2ab837f4"
+                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/4888a3dad9ab3b3da505a149230be0ec2ab837f4",
-                "reference": "4888a3dad9ab3b3da505a149230be0ec2ab837f4",
+                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/a2d5c2e149d837e5580a62a91d3c91577aa30d28",
+                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28",
                 "shasum": ""
             },
             "require-dev": {
@@ -46,19 +47,19 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-01-29 22:51:45"
+            "time": "2013-03-15 17:51:14"
         },
         {
             "name": "wordpress",
-            "version": "4.1.1",
+            "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "fancyguy/webroot-installer": "1.0.0"
+                "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
         }
@@ -70,12 +71,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "aea81319f561cf2eb581736b9b30e7a81c48363b"
+                "reference": "12cac727ec2190bfc9a63ce0ee400379ee69a0c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/aea81319f561cf2eb581736b9b30e7a81c48363b",
-                "reference": "aea81319f561cf2eb581736b9b30e7a81c48363b",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/12cac727ec2190bfc9a63ce0ee400379ee69a0c9",
+                "reference": "12cac727ec2190bfc9a63ce0ee400379ee69a0c9",
                 "shasum": ""
             },
             "bin": [
@@ -96,7 +97,7 @@
                 }
             ],
             "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
-            "homepage": "http://github.com/heroku/heroku-buildpack-php",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
             "keywords": [
                 "apache",
                 "apache2",
@@ -106,7 +107,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2015-02-19 09:59:04"
+            "time": "2016-11-23 21:32:05"
         }
     ],
     "aliases": [],
